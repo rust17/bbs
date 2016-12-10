@@ -1,0 +1,15 @@
+#active{
+    width: auto;
+    height: 300px;
+    border: 2px solid #cccccc;
+    margin: 10px auto;
+}
+#active h2{
+    text-indent: 0;
+    text-align: center;
+}
+#active p{
+    text-align: center;
+    font-size: 13px;
+    margin: 10px auto;
+}

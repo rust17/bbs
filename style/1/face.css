@@ -1,0 +1,24 @@
+body{
+    width: auto;
+}
+#face{
+    margin: 10px auto;
+}
+#face h2{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+#face dl{
+    width: 80%;
+    margin: 10px auto;
+}
+#face dd{
+    width: 80px;
+    height:80px;
+    float: left;
+    margin: 10px 0 10px 10px;
+}
+#face dl dd img{
+    cursor: pointer;
+}

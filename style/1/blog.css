@@ -1,0 +1,95 @@
+#blog{
+    width: auto;
+    height: 600px;
+    border: 2px solid #cccccc;
+}
+#blog h2{
+    text-align: center;
+    text-indent:0;
+}
+#blog dl{
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 0 0 30px;
+}
+#blog dl dd{
+    font-size: 13px;
+}
+#blog dl dd.username{
+    color: #f60;
+    padding: 0 0 0 50px;
+}
+#blog dl dt{
+    padding: 0 0 0 40px;
+}
+#blog dl dd.message{
+    font-size: 12px;
+    margin: 3px 13px 0 20px;
+    float: left;
+}
+#blog dl dd.friends{
+    font-size: 12px;
+    margin: 3px 0 0 0;
+}
+#blog dl dd.note{
+    font-size: 12px;
+    margin: 3px 13px 0 20px;
+    float: left;
+}
+#blog dl dd.flower{
+    font-size: 12px;
+    margin: 3px 0 0 0;
+}
+#page_num{
+    height: 20px;
+    clear: both;
+    position: relative;
+    padding: 10px 0;
+}
+#page_num ul{
+    float: right;
+    padding: 0 20px 0 0;
+}
+#page_num ul li{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #cccccc;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+#page_num ul li:hover{
+    background: blanchedalmond;
+}
+#page_num ul li a{
+    padding: 0 0 0 5px;
+    color: #3b3b1f;
+    text-decoration: none;
+}
+#page_num ul li.selected{
+    background:#c7c78f;
+}
+#page_text{
+    height: 20px;
+    clear: both;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+}
+#page_text ul{
+    padding: 0 0 0 300px;
+}
+#page_text ul li{
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+#page_text ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}#page_text ul li a:hover{
+     color: red;
+ }

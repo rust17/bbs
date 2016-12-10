@@ -1,0 +1,21 @@
+#list{
+    float: right;
+    border: 2px solid #cccccc;
+    width: 600px;
+    height: 518px;
+    margin: 0 0 10px 0;
+}
+#user{
+    float: left;
+    border: 2px solid #cccccc;
+    width: 342px;
+    height: 252px;
+    margin: 0 0 10px 0;
+}
+#pics{
+    float: left;
+    border: 2px solid #cccccc;
+    width: 342px;
+    height: 252px;
+    margin: 0 0 10px 0;
+}

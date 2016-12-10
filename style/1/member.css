@@ -1,0 +1,86 @@
+#member{
+    width: auto;
+    height: 600px;
+    border: 2px solid #cccccc;
+}
+#member #member_sidebar{
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    float: left;
+    border: 1px dashed #999;
+}
+#member #member_sidebar h2{
+    text-align: center;
+    text-indent: 0;
+    font-size: 14px;
+}
+#member #member_sidebar dl{
+    width: 250px;
+    margin: 15px auto;
+    font-size: 12px;
+}
+#member #member_sidebar dl dt{
+    text-align: center;
+    background: #999;
+    line-height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#member #member_sidebar dl dd{
+    text-align: center;
+    line-height: 40px;
+    background: #eeeeee;
+    font-weight: bold;
+}
+#member #member_sidebar dl dd:hover{
+    background: #cccccc;
+    cursor: pointer;
+}
+#member #member_sidebar dl dd a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+#member #member_main{
+    width: 590px;
+    height: 500px;
+    margin: 15px;
+    float: right;
+    border: 1px dashed #999;
+}
+#member #member_main h2{
+    text-align: center;
+    text-indent: 0;
+    font-size: 14px;
+}
+#member #member_main form dl dd{
+    width: 450px;
+    line-height: 27px;
+    margin: 0 0 0 50px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #999999;
+    font-size: 14px;
+}
+#member #member_main form dl dd input.text{
+    border: 1px dashed #333;
+    width: 200px;
+    height: 25px;
+    text-indent: 5px;
+}
+#member #member_main form dl dd input.buttom{
+    width: 70px;
+    height: 25px;
+    background: #ffffff;
+    border: 1px dashed #999999;
+    cursor: pointer;
+}
+#member #member_main form dl dd input.code{
+    width: 60px;
+}
+#member #member_main form dl dd img{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+}
